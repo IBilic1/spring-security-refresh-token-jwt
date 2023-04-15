@@ -1,3 +1,10 @@
+# ALSO IMPORTANT: 
+1. you need to add in pom.xml mvn dependency for your type of database
+2. change jdbc for your database spring.datasource.url in application.properties (it is different for every type of database)
+3. change dialectspring.jpa.properties.hibernate.dialect in application.properties(it is different for every type of database)
+
+
+
 # Spring Security Refresh Token with JWT in Spring Boot example
 
 Build JWT Refresh Token with Spring Security in the Spring Boot Application. You can know how to expire the JWT Token, then renew the Access Token with Refresh Token in HttpOnly Cookie.
